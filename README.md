@@ -3,7 +3,7 @@ Métro Simulator Numworks est un simulateur de conduite de métro parisien pour 
 
 ## Installation/exécution
 ### Installer sur NumWorks
-Branchez votre calculatrice à votre ordinateur, puis rendez-vous sur https://my.numworks.com/python/monsieur-ouiplala/metrosim. Cliquez sur « Envoyer sur ma calculatrice ».
+Branchez votre calculatrice à votre ordinateur, puis rendez-vous sur https://my.numworks.com/python/ouiplala/metrosim. Cliquez sur « Envoyer sur ma calculatrice ».
 ### Exécuter sur ordinateur
 Installez les bibliothèques [keyboard](https://github.com/boppreh/keyboard) et [kandinsky](https://github.com/Zetamap/kandinsky-numworks). Téléchargez metrosim.py et lancez-le.
 
