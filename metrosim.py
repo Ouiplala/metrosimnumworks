@@ -2,8 +2,8 @@ version=1.0
 try:from keyboard import *
 except Exception:
 	from ion import *
+	touches={"a":"KEY_EXP","up":"KEY_UP","down":"KEY_DOWN","left":"KEY_LEFT","right":"KEY_RIGHT","p":"KEY_LEFTPARENTHESIS","c":"KEY_LOG","m":"KEY_SEVEN","o":"KEY_FIVE","f":"KEY_FIVE","esc":"KEY_SHIFT","enter":"KEY_EXE","d":"KEY_IMAGINARY","control":"KEY_ALPHA","backspace":"KEY_BACKSPACE","i":"KEY_TANGENT"}
 	def is_pressed(touche):
-		touches={"a":"KEY_EXP","up":"KEY_UP","down":"KEY_DOWN","left":"KEY_LEFT","right":"KEY_RIGHT","p":"KEY_LEFTPARENTHESIS","c":"KEY_LOG","m":"KEY_SEVEN","o":"KEY_FIVE","f":"KEY_FIVE","esc":"KEY_SHIFT","enter":"KEY_EXE","d":"KEY_IMAGINARY","control":"KEY_ALPHA","backspace":"KEY_BACKSPACE","i":"KEY_TANGENT"}
 		if touche in touches:return keydown(eval(touches[touche]))
 from time import *
 from kandinsky import *
